@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainParent{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #5765d0;
+}
+
+.logoPart{
+    background-color: #4c5bd4;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+.logoPart img{
+    height: 1.5rem;
+    margin-right: 1rem;
+
+}
+
+.restPart{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: white;
+}
+.restPart input, .restPart select{
+    padding: .2rem;
+    margin: 1rem 0;
+}
+
+.restPart button{
+    padding: .2rem 0;
+    color: #4c5bd4;
+    font-weight: bold;  
+    cursor: pointer;
+}
+
+.restPart button:hover{
+    color: white;
+    background-color: #4c5bd4;
+    border: 1px solid white;
+}

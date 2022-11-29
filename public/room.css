@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.mainContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainParent{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #5765d0;
+}
+
+.logoPart{
+    flex: 1;
+    background-color: #4c5bd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+.logoPart img{
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+#leaveRoom{
+    padding: 0.3rem 0.5rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#leaveRoom:hover{
+    color: white;
+    background-color: #9faaff;
+}
+
+
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+
+.middleSection{
+    flex: 8;
+    display: flex;
+    padding: 2rem;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #4c5bd4;
+}
+
+.bottom input{
+    flex: 8;
+}
+
+.bottom button{
+    flex: 1;
+    cursor: pointer;
+}
+
+.bottom button:hover{
+    padding: .1rem;
+    color: white;
+    background: black;
+}
+                    
+.rooomAndusers{
+    flex: 3;
+    background-color: #4c5bd4;
+    color: white;
+}
+
+.roomInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: .5rem;
+    color: white;
+}
+
+.users span{
+    background-color: #5765d0;
+    display: block;
+    text-align: center;
+    padding: 0.2rem 1rem;
+    margin-top: 1rem;
+}
+
+.mainChatPart{
+    flex: 7;
+    background-color: white;
+    max-height: 300px;
+    min-height: 300px;
+    overflow-y: scroll;
+}
+
+.chatItem{
+    margin: .5rem;
+    background-color: #e5e6ff;
+    padding: .5rem;
+
+}
+.chatItem span{
+    font-size: 10px;
+    color: grey;
+}
+
+.chatItem p{
+    font-weight: bold;
+}
